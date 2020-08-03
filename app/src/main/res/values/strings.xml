@@ -1,4 +1,6 @@
 <resources>
     <string name="app_name">MyProject</string>
     <string name="github"><a href="https://github.com/bliack-swan/MyProject">My GitHub</a></string>
+    <string name="its_work">It\'s work!</string>
+    <string name="push_me">Push me</string>
 </resources>

@@ -19,4 +19,29 @@
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="0.91" />
 
+    <Button
+        android:id="@+id/push_me"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:onClick="onPushMe"
+        android:text="@string/push_me"
+        app:layout_constraintBottom_toTopOf="@+id/link_git_hub"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.498"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.803" />
+
+    <TextView
+        android:id="@+id/its_work"
+        android:layout_width="143dp"
+        android:layout_height="50dp"
+        android:layout_marginBottom="140dp"
+        android:text="@string/its_work"
+        android:textColor="#32FFFFFF"
+        android:textSize="36sp"
+        app:layout_constraintBottom_toTopOf="@+id/push_me"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+
 </androidx.constraintlayout.widget.ConstraintLayout>
